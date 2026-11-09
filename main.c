@@ -10,7 +10,7 @@ int main(void)
     }else{
         long long sum = 0;
 
-        for (int I =1; i <= n; i++){
+        for (int i =1; i <= n; i++){
             sum += i;
         }
 
