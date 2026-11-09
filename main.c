@@ -4,6 +4,17 @@ int main(void)
 {
     int n;
     scanf("%d", &n);
-    /* TODO: n が負なら NG、そうでなければ 1+2+...+n を for 文で計算して表示 */
+
+    if (n < 0){
+        printf("NG\n");
+    }else{
+        long long sum = 0;
+
+        for (int I =1; i <= n; i++){
+            sum += i;
+        }
+
+        printf("%11d\n", sum);
+    }
     return 0;
 }
